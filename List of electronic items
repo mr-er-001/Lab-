@@ -7,7 +7,7 @@ class Program
     {
         List<string> electronics = new List<string>
         {
-            "Laptop",
+            "Laptop","SAMSUNG",
             "Smartphone",
             "Smartwatch",
             "Tablet",
