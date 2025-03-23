@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<string> electronics = new List<string>
+        {
+            "Laptop",
+            "Smartphone",
+            "Smartwatch",
+            "Tablet",
+            "Headphones"
+        };
+
+        Console.WriteLine("List of Electronics Items:");
+        foreach (string item in electronics)
+        {
+            Console.WriteLine(item);
+        }
+    }
+}
